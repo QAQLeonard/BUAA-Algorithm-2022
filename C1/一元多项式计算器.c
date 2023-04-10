@@ -44,7 +44,7 @@ int main()
 			temp2=(b[j]+y*temp2)%10007;
 		}
 		sum=((temp1%10007)*(temp2%10007))%10007;
-		printf("%lld\n",sum);
+		printf("%ld\n",sum);
 	}
 
 	return 0;	
